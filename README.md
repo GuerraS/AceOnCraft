@@ -19,7 +19,7 @@ A powerful development tool designed to ease the process of stating, enchanting,
 
 ---
 
-## 📁 Estructura recomendada del proyecto
+## 📁 Recommended project structure
 
 ```plaintext
 src/
