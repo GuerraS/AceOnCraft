@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ViewComponent } from './features/view/view.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ViewComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,0 +1,11 @@
+<div class="card flex justify-center">
+
+    <p-listbox [options]="lstWeapons" [(ngModel)]="selectedItems" class="my-custom-listbox" [multiple]="true" optionLabel="name" [filter]="true" class="w-full md:w-56" (onChange)="onSelectionChange($event)" >
+        <ng-template #item let-weapon>
+            <div class="flex align-items-center">
+                <img [src]="weapon.image" alt="{{ weapon.name }}" class="mr-2" width="30" />
+                <span>{{ weapon.name }}</span>
+            </div>
+        </ng-template>
+    </p-listbox>
+</div>

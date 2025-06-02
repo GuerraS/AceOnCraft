@@ -1,0 +1,9 @@
+
+
+
+
+::ng-deep p-button button{
+   --p-button-sm-icon-only-width: 2rem ;
+   height: 1px !important;
+
+}

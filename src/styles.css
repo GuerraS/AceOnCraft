@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/imgs/ngcop.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+ font-size: 14.5px;}
+
+.content {
+  background-color: rgba(108, 134, 184, 0.4); /* blanco semitransparente */
+  backdrop-filter: blur(10px); /* aplica el desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* para Safari */
+
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-panel-header {
+  --p-panel-header-padding: 0.5rem 1rem 1rem 1rem;
+}
+
+p-panel{
+  --p-panel-background:rgba(58, 56, 65, 0.4) ;
+  --p-panel-border-radius: 0.2rem;
+}
+
+.stat-bg{
+    background-color: rgba(5, 46, 78, 1);
+    border-radius: 0.2rem;
+   
+}
+.p-divider.p-divider-horizontal:before {
+    border-top: 2px solid #033f70 !important;
+}
+
+.p-togglebutton-checked .p-togglebutton-content {
+    background-color: rgb(72, 82, 101, 0.4) !important;
+}

@@ -1,0 +1,10 @@
+:host {
+    --p-listbox-option-selected-background: #052e4e !important;
+    --p-listbox-option-focus-background: rgb(3, 63, 112) !important;
+    --p-listbox-option-selected-focus-background: #052e4e !important;
+    --p-listbox-option-selected-color: rgba(255, 255, 255, 0.8) !important; 
+    --p-listbox-option-selected-focus-color: rgba(255, 255, 255, 0.8) !important;
+    --p-listbox-option-focus-color: rgba(255, 255, 255, 0.8) !important;
+    --p-listbox-background: rgba(58, 56, 65, 0.4);
+    --p-listbox-option-color:rgba(255, 255, 255, 0.8) !important;
+}
