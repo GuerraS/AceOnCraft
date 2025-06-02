@@ -15,7 +15,7 @@ A powerful development tool designed to ease the process of stating, enchanting,
 | ☕ **Spring Boot** | `3.x.x`     | Backend framework for creating RESTful APIs in Java          |
 | 🌩 **AWS**          | -           | Cloud infrastructure for deployment, image storage  |
 | 🎨 **PrimeNG**     | `15.x.x`    | UI component library with design tokens support              |
-| 💅 CSS Tokens** | N/A         | Styling with custom design tokens              
+| 💅 **CSS Tokens** | N/A         | Styling with custom design tokens              
 
 ---
 
