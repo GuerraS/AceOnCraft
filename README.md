@@ -4,8 +4,6 @@ A powerful development tool designed to ease the process of stating, enchanting,
 
 ---
 
-## [1.0.2] - 2025-06-03
-
 ## 🧰 Built-in Technologies
 
 | Herramienta        | Versión      |
@@ -21,7 +19,7 @@ A powerful development tool designed to ease the process of stating, enchanting,
 
 ---
 
-## 📁 Recommended project structure
+## 📁 Project structure
 
 ```plaintext
 src/
@@ -36,3 +34,7 @@ src/
 ├── assets/               # images, fonts, etc.
 ├── environments/         # Environment setup
 └── styles.scss           # CSS tokens, global styles
+```
+---
+
+### Current version [1.0.2] - 2025-06-03
