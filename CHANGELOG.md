@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.0.2] - 2025-06-03
+### Added/Feature
+- Refactor of advance weapon component
+- Strategy and factory created to handle different types of
+    list inside advance weapon component
 
 ## [1.0.1] - 2025-06-02
 ### Added/Feature
