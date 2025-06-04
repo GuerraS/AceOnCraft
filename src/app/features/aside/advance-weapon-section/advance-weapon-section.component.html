@@ -1,11 +1,13 @@
-<div class="card flex justify-center">
-
-    <p-listbox [options]="lstWeapons" [(ngModel)]="selectedItems" class="my-custom-listbox" [multiple]="true" optionLabel="name" [filter]="true" class="w-full md:w-56" (onChange)="onSelectionChange($event)" >
-        <ng-template #item let-weapon>
-            <div class="flex align-items-center">
-                <img [src]="weapon.image" alt="{{ weapon.name }}" class="mr-2" width="30" />
-                <span>{{ weapon.name }}</span>
-            </div>
-        </ng-template>
-    </p-listbox>
+<div class="flex flex-column xl:flex-row gap-2 justify-content-center">
+    <div class="flex">
+        <app-advance-fixes titulo="Prefix" type="prefix" config="prefix config" selectionLimit="1" class="w-full"></app-advance-fixes>
+    </div>
+     <div class="flex">
+        <app-advance-fixes titulo="Weapon" type="weapon" config="weapon config" selectionLimit="1" class="w-full"></app-advance-fixes>
+    </div>
+    <div class="flex">
+        <app-advance-fixes titulo="Suffix" type="suffix" config="suffix config" selectionLimit="1" class="w-full"></app-advance-fixes>
+    </div>
 </div>
+
+

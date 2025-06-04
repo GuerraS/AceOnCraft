@@ -11,9 +11,13 @@ export interface ProductI {
     rating: number;
 }
 
-
 export interface AdvanceWeaponModel {
     name: string;
     code: string;
     image: string;
+}
+
+export interface FixesI{
+    name: string;
+    code: string;
 }
