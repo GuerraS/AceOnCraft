@@ -1,6 +1,6 @@
 # 🚀 AceOnCraft 🔥
 
-A powerful development tool designed to ease the process of stating, enchanting, and buildin. 
+A powerful development tool designed to ease the process of stating, enchanting, and building. 
 
 ---
 
