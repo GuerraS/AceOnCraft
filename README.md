@@ -1,5 +1,6 @@
 # 🚀 AceOnCraft 🔥
 
+### Current version [1.0.3] - 2025-06-15
 A powerful development tool designed to ease the process of stating, enchanting, and buildin. 
 
 ---
@@ -37,4 +38,3 @@ src/
 ```
 ---
 
-### Current version [1.0.2] - 2025-06-03
