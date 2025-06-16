@@ -12,14 +12,14 @@ import { FixSrategyFactoryService } from 'app/features/aside/advance-weapon-sect
 })
 export class FixComponent {
   titulo = input<string>('');
-  selectionLimit = input<string>('2');
+  selectionLimit = input<string>();
   type = input<string>(''); 
-  cities!: FixesI[];
-  selectedCities!: FixesI[];
+  fixes!: FixesI[];
+  selectedFixes!: FixesI[];
   constructor(private _strategyFactory: FixSrategyFactoryService) {}
 
    ngOnInit(): void {
     const strategy = this._strategyFactory.getStrategy(this.type());
-    strategy.getItemList("config");
+    this.fixes = strategy.getItemList();
   }
 }

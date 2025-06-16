@@ -11,7 +11,18 @@ export class PrefixStrategyService implements FixStrategy{
    * Method that gets the list of prefixes.
    * @param config Configuration to get the list of prefixes.
    */
- getItemList(config: any): void {
-    console.log('executing prefix strategy', config);
+ getItemList(): FixesI[] {
+    return [
+      {
+        id: 1,
+        name: 'Atack',
+        code: 'PRFX1'
+      },
+      {
+        id: 2,
+        name: 'Bio',
+        code: 'PRFX2'
+      }
+    ];
   }
 }

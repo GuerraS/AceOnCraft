@@ -6,12 +6,22 @@ import { FixStrategy } from '@core/model/advanceWeaponModel/fix-strategy.interfa
   providedIn: 'root'
 })
 export class SuffixStrategyService implements FixStrategy{
-  fixList!: FixesI[];
   /**
    * Method that gets the list of suffixes.
    * @param config Configuration to get the list of suffixes.
    */
-  getItemList(config: any): void {
-    console.log('executing suffix strategy', config);
+  getItemList(): FixesI[] {
+    return [
+      {
+        id: 1,
+        name: 'Attack',
+        code: 'SFX1'
+      },
+      {
+        id: 2,
+        name: 'Bio',
+        code: 'SFX2'
+      }
+    ];;
   }
 }

@@ -18,6 +18,7 @@ export interface AdvanceWeaponModel {
 }
 
 export interface FixesI{
+    id: number;
     name: string;
     code: string;
 }
