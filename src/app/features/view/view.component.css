@@ -1,3 +1,7 @@
 ::ng-deep .custom-center-header .p-panel-header {
   justify-content: center;
 }
+
+.max-h-900 {
+  max-height: 900px;
+}
