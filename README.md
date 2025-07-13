@@ -9,13 +9,13 @@ A powerful development tool designed to ease the process of stating, enchanting,
 
 | Herramienta        | Versión      |
 |--------------------|--------------|
-| 🌐 **Angular**     | `19.x.x`     |
+| 🌐 **Angular**     | `19.2.13`     |
 | ⚙️ **Angular CLI** | `19.2.13`    |
 | 🟩 **Node.js**     | `22.14.0`    |
 | 📦 **npm**         | `11.3.0`     |
 | ☕ **Spring Boot** | `3.x.x`     | Backend framework for creating RESTful APIs in Java          |
 | 🌩 **AWS**          | -           | Cloud infrastructure for deployment, image storage  |
-| 🎨 **PrimeNG**     | `15.x.x`    | UI component library with design tokens support              |
+| 🎨 **PrimeNG**     | `19.1.3`    | UI component library with design tokens support              |
 | 💅 **CSS Tokens** | N/A         | Styling with custom design tokens              
 
 ---
